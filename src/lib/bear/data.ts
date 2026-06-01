@@ -1,4 +1,4 @@
-import type { Strategy } from "../components/bear/StrategyCard";
+import type { Strategy } from "../../components/bear/StrategyCard";
 
 function gen(seed: number, n = 24, drift = 0.1) {
   let v = 50;
