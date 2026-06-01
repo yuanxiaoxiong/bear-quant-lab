@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ChevronRight, Activity } from "lucide-react";
-import { StrategyCard, type Strategy } from "../../components/bear/StrategyCard";
-import { LiveLogConsole } from "../../components/bear/LiveLogConsole";
-import { initialStrategies } from "../../lib/bear/data";
+import { StrategyCard, type Strategy } from "../StrategyCard";
+import { LiveLogConsole } from "../LiveLogConsole";
+import { initialStrategies } from "../../../lib/bear/data";
 
 export function StrategiesTab() {
   const [strategies, setStrategies] = useState<Strategy[]>(initialStrategies);
